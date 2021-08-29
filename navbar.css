@@ -1,0 +1,72 @@
+
+@font-face {
+  font-family:font1; src: url('fonts/Kollektif-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:font2; src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:font3; src: url('fonts/Kollektif.ttf') format('truetype');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: font3;
+}
+
+header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 5%;
+  background-color: #a0c570;
+  height: 80px;
+}
+
+#logo{
+  color: white;
+  font-family: font1;
+  font-size: 30px;
+  margin-right: auto;
+}
+
+li, a, #login_btn{
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+  letter-spacing: 1px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0;
+}
+
+.nav_links li a:hover{
+  color: #dcf7b7;
+}
+
+#login_btn{
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(186, 215, 149, 0.8);
+  border: none;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+#login_btn:hover{
+  background-color: rgba(186, 215, 149, 1);
+}
