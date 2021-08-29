@@ -38,7 +38,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="wrapper">
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
     	<h2>Diet Template</h2>
-    	<h3>Follow the personalized recommendations made by your dietitian.</h3>
+    	<h3>Leave personalized diet recommendations for your patient.</h3>
 
         <table>
             <tr>
