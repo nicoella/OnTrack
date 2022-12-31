@@ -41,4 +41,4 @@ Start a PHP server with `[port]` replaced by your port of choice:
 $ php -S localhost:[port] -t OnTrack
 ```
 
-Visit the site at `localhost:port`.
+Visit the site at `localhost:[port]`.
