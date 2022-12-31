@@ -138,7 +138,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         </table>
         <div class="form-group">
             <?php 
-            session_start();
+            //session_start();
 
             if($_SESSION['press'] == 0) {
                 echo "<input type=\"submit\" class=\"button\" value=\"edit\" style=\"width: 80px\">";

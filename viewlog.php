@@ -131,7 +131,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
         <div class="form-group">
             <?php 
-            session_start();
+            //session_start();
 
             if($_SESSION['press'] == 0) {
                 echo "<input type=\"submit\" class=\"button\" value=\"add\" style=\"width: 80px; margin:0 auto; position: absolute;  left: -140px; right: 0; top: 0; bottom: 0; display: inline-block\" name='button1'>";
