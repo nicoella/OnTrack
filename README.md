@@ -2,11 +2,9 @@
 A site to connect patients with their dietician.
 
 ## Usage
-Requires PHP and MySQL to run.
+Requires PHP and SQL to run.
 
-Create a new MySQL connection.
-
-Create a schema with `Character Set` and `Collation` set to default.
+Create a new SQL database.
 
 Create a table called `user` with the following columns:
 * `id` with type `int`
