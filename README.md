@@ -7,7 +7,7 @@ Requires PHP and SQL to run.
 Create a new SQL database.
 
 Create a table called `user` with the following columns:
-* `id` with type `int`
+* `id` with type `int`, `AUTO_INCREMENT` checked, and `PRIMARY_KEY` checked
 * `username` with type `text`
 * `password` with type `text`
 * `type` with type `int`
